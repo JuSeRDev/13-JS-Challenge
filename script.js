@@ -16,9 +16,6 @@ function clearBackground (param){
     });
 }
 
-const post = document.querySelectorAll(".post")
-
-
 notification.forEach(noti => {
     if(noti.classList.contains(classActive)){
         countArray.push(1)
