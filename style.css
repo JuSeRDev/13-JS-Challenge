@@ -41,6 +41,14 @@ body{
     padding: 20px;
 }
 
+.all-read{
+    cursor: pointer;
+}
+
+.all-read:hover{
+    color: var(--Blue);
+}
+
 .container{
     padding: 40px 20px 15px 20px;
     background: var(--White);
@@ -97,7 +105,7 @@ body{
 .text-container{
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 20px;
     justify-content: center;
     gap: 3px;
 }
@@ -106,16 +114,27 @@ body{
     color: var(--Very-dark-blue);
     font-weight: 800;
     margin-right: 5px;
+    cursor: pointer;
+}
+
+.name:hover{
+    color: var(--Blue);
 }
 
 .post{
     margin-left: 5px;
     font-weight: 800;
+    cursor: pointer;
+}
+
+.post:hover{
+    color: var(--Blue);
 }
 
 .group{
     color: var(--Blue);
     font-weight: 800;
+    cursor: pointer;
 }
 
 .photo, .pick{
@@ -125,12 +144,18 @@ body{
 
 .pick{
     margin-left: auto;
+    cursor: pointer;
 }
 
 .message{
     border: 1px solid var(--Light-grayish-blue-1);
-    margin: 10px 35px 0px 55px;
-    padding: 15px;
+    margin: 10px 10px 0px 65px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.message:hover{
+    background: var(--Light-grayis-blue-2);
 }
 
 .attribution { font-size: 11px; text-align: center; }
